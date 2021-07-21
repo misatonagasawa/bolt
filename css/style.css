@@ -49,15 +49,19 @@
   color: #4e4e4e;
 }
 
-.main__theam {
+body {
+  font-family: "Lato";
+}
+
+.main__theme {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
   text-align: center;
-  padding: 250px;
+  padding: 300px 0 250px 0;
 }
 
-.main__theam__tx {
+.main__theme__tx {
   font-size: 30px;
   color: #c0c0c0;
   font-weight: 100;
@@ -76,11 +80,12 @@
 }
 
 .main__sect__right {
-  width: 750px;
+  width: 700px;
 }
 
 .main__sect__tx {
   color: #fff;
+  font-family: "Raleway";
 }
 
 .main__sect__tx__top {
@@ -107,6 +112,7 @@
   margin: 80px 0 0 100px;
   transition: all .3s;
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .art__img:nth-child(3n+1) {
@@ -125,6 +131,7 @@
 .main__art__tx__top {
   color: #333;
   font-size: 24px;
+  font-family: "Raleway";
   text-align: center;
 }
 
@@ -134,9 +141,10 @@
 }
 
 .main__art__tx__bottom {
-  font-size: 12px;
-  line-height: 20px;
-  width: 400px;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: "Raleway";
+  width: 610px;
   margin-right: 90px;
   text-align: center;
   display: inline-block;
@@ -187,30 +195,35 @@
 
 .circle__tx {
   color: #f2f2f2;
+  padding: 10px;
 }
 
 .nav {
   padding: 200px;
+  text-align: center;
 }
-
-.main__nav {
-  display: flex;
-}
-
 
 a {
   text-decoration: none;
+}
+
+.nav__icon {
+  display: inline-block;
+
 }
 
 
 .sns {
   display: inline-block;
   color: #74cfae;
-  padding: 50px 92px;
+  width: 185px;
+  padding: 25px 0;
+  transition: all .3s;
 }
 
-i:hover {
+.sns:hover {
   background-color: #fff;
+  transition: all .3s;
 }
 
 .footer {
