@@ -26,7 +26,7 @@
 }
 
 .header__inner {
-  padding: 15px;
+  padding: 15px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -67,9 +67,11 @@ body {
   color: #c0c0c0;
   font-weight: 100;
   margin-top: 20px;
+  font-family: "Ralulay";
 }
 
 .sect {
+  width: 100%;
   background-color: #74cfae;
   padding-top: 50px;
 }
@@ -91,12 +93,12 @@ body {
 
 .main__sect__tx__top {
   font-size: 24px;
-  margin-bottom: 35px;
 }
 
 .main__sect__tx__bottom {
   font-size: 20px;
   line-height: 25px;
+  margin-top: 35px;
 }
 
 .art {
@@ -108,7 +110,7 @@ body {
   font-size: 0;
 }
 
-.art__img {
+article li {
   display: inline-block;
   margin: 80px 0 0 100px;
   transition: all .3s;
@@ -116,15 +118,15 @@ body {
   cursor: pointer;
 }
 
-.art__img:nth-child(3n+1) {
+article li:nth-child(3n+1) {
   margin-left: 0;
 }
 
-.art__img:nth-child(-n+3) {
+article li:nth-child(-n+3) {
   margin-top: 0;
 }
 
-.art__img:hover {
+li:hover {
   transition: all .3s;
   opacity: 1;
 }
@@ -167,6 +169,7 @@ body {
 }
 
 .circle {
+  width: 100%;
   background-color: #4e4e4e;
 }
 
@@ -178,28 +181,29 @@ body {
   font-size: 24px;
   color: #f2f2f2;
   text-align: center;
-  margin-bottom: 70px;
 }
 
 .main__circle {
+  margin-top: 70px;
   text-align: center;
 }
 
-.main__sect__circle__img {
+section li {
   display: inline-block;
   margin-left: 180px;
 }
 
-.main__sect__circle__img:first-child {
+section li:first-child {
   margin-left: 0;
 }
 
 .circle__tx {
   color: #f2f2f2;
-  padding: 10px;
+  margin-top: 10px;
 }
 
 .nav {
+  width: 100%;
   padding: 200px 0;
 }
 
