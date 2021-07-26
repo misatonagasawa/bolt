@@ -67,7 +67,7 @@ body {
   color: #c0c0c0;
   font-weight: 100;
   margin-top: 20px;
-  font-family: "Ralulay";
+  font-family: "Raleway";
 }
 
 .sect {
@@ -105,12 +105,12 @@ body {
   padding: 60px 0px 70px;
 }
 
-.main__art__img {
+.main__art {
   margin-top: 40px;
   font-size: 0;
 }
 
-article li {
+.main__art__img {
   display: inline-block;
   margin: 80px 0 0 100px;
   transition: all .3s;
@@ -118,11 +118,11 @@ article li {
   cursor: pointer;
 }
 
-article li:nth-child(3n+1) {
+.main__art__img:nth-child(3n+1) {
   margin-left: 0;
 }
 
-article li:nth-child(-n+3) {
+.main__art__img:nth-child(-n+3) {
   margin-top: 0;
 }
 
@@ -188,12 +188,12 @@ li:hover {
   text-align: center;
 }
 
-section li {
+.main__circle__img {
   display: inline-block;
   margin-left: 180px;
 }
 
-section li:first-child {
+.main__circle__img:first-child {
   margin-left: 0;
 }
 
