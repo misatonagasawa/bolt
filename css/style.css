@@ -54,12 +54,16 @@ body {
   font-family: "Lato";
 }
 
+main {
+  padding-top: 80px;
+}
+
 .main__theme {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
   text-align: center;
-  padding: 300px 0 250px 0;
+  padding: 250px 0;
 }
 
 .main__theme__tx {
