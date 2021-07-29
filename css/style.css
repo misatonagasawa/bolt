@@ -43,6 +43,10 @@
   .bolt {
     color: #4e4e4e;
   }
+
+  .hamburger__menu {
+    display: none;
+  }
   
   body {
     font-family: "Lato";
@@ -282,6 +286,10 @@
     color: #4e4e4e;
   }
   
+  .hamburger__menu {
+    display: none;
+  }
+
   body {
     font-family: "Lato";
   }
@@ -502,6 +510,7 @@
     color: #fff;
     padding: 14px 12px;
     transition: all .3s;
+    display: none;
   }
   
   .header__box:hover {
@@ -509,6 +518,36 @@
     color: #333;
   }
   
+  .hamburger__menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 20px;
+    z-index: 3;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .hamburger__menu span {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background: #ddd;
+    border-radius: 4px;
+    display: block;
+  }
+
+  .hamburger__menu span:nth-child(1) {
+    top:9px;
+  }
+  .hamburger__menu span:nth-child(2) {
+    top:18px;
+  }
+  .hamburger__menu span:nth-child(3) {
+    top:27px;
+  }
   .bolt {
     color: #4e4e4e;
   }
@@ -522,11 +561,13 @@
   }
   
   .main__theme {
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 700;
     color: #74cfae;
     text-align: center;
-    padding: 250px 0;
+    width: 300px;
+    padding: 160px 0 130px;
+    margin: auto;
   }
   
   .main__theme__tx {
@@ -545,12 +586,7 @@
 
   .main__sect {
     text-align: center;
-    display: flex;
-    justify-content:space-around
-  }
-  
-  .main__sect__right {
-    width: 700px;
+    margin-top: 20px;
   }
   
   .main__sect__tx {
@@ -573,26 +609,24 @@
   }
   
   .main__art {
-    margin-top: 40px;
     font-size: 0;
+    text-align: center;
   }
   
   .main__art__img {
-    display: inline-block;
-    margin: 80px 0 0 100px;
     transition: all .3s;
     opacity: 0.7;
     cursor: pointer;
   }
   
-  .main__art__img:nth-child(3n+1) {
-    margin-left: 0;
+  .main__art__img:first-child {
+    margin-top: 40px;
   }
-  
-  .main__art__img:nth-child(-n+3) {
-    margin-top: 0;
+
+  .main__art__img:nth-child(4) {
+    margin-top: 80px;
   }
-  
+
   li:hover {
     transition: all .3s;
     opacity: 1;
@@ -606,7 +640,7 @@
   }
   
   .main__art__right {
-    margin-top: 90px;
+    margin-top: 80px;
     text-align: center;
   }
   
@@ -614,10 +648,7 @@
     font-size: 20px;
     line-height: 25px;
     font-family: "Raleway";
-    width: 610px;
-    margin-right: 90px;
     text-align: center;
-    display: inline-block;
   }
   
   .main__art_inner {
@@ -628,6 +659,7 @@
     font-size: 12px;
     transition: all .3s;
     vertical-align: top;
+    margin-top: 40px;
   }
   
   .main__art_inner:hover {
@@ -656,12 +688,11 @@
   }
   
   .main__circle__img {
-    display: inline-block;
-    margin-left: 180px;
+    margin-top: 88px;
   }
   
   .main__circle__img:first-child {
-    margin-left: 0;
+    margin-top: 0;
   }
   
   .circle__tx {
@@ -671,7 +702,7 @@
   
   .nav {
     width: 100%;
-    padding: 200px 0;
+    padding: 50px 15px;
   }
   
   .main__nav {
@@ -682,14 +713,11 @@
     text-decoration: none;
   }
   
-  .nav__icon {
-    display: inline-block;
-  }
   
   .sns {
     display: inline-block;
     color: #74cfae;
-    width: 185px;
+    width: 100%;
     padding: 30px 0;
     transition: all .3s;
   }
