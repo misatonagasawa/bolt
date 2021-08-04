@@ -143,9 +143,6 @@ main {
 .main__art__img {
   display: inline-block;
   margin: 80px 0 0 100px;
-  transition: all .3s;
-  opacity: 0.7;
-  cursor: pointer;
 }
 
 .main__art__img:nth-child(3n+1) {
@@ -156,7 +153,13 @@ main {
   margin-top: 0;
 }
 
-li:hover {
+.img {
+  transition: all .3s;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.img:hover {
   transition: all .3s;
   opacity: 1;
 }
@@ -287,11 +290,11 @@ a {
   }
   
   .inner {
-    width: auto;
+    width: 97%;
   }
   
   .sect {
-    width: 100%;
+    width: 97%;
     background-color: #74cfae;
     padding: 50px 0 25px;
   }
@@ -301,7 +304,7 @@ a {
   }
 
   .main__sect__right {
-    width: 100%;
+    width: 97%;
     margin: 0 auto;
   }
   
@@ -340,7 +343,7 @@ a {
   .main__art__right {
     margin-top: 80px auto 0;
     text-align: center;
-    width: 100%;
+    width: 97%;
   }
   
   .main__art__tx__bottom {
@@ -378,10 +381,6 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-  
-  .inner {
-    width: auto;
-  }
 
   .hamburger__menu{
     display: block;
