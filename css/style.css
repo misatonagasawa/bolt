@@ -294,7 +294,7 @@ a {
   }
   
   .sect {
-    width: 97%;
+    width: 100%;
     background-color: #74cfae;
     padding: 50px 0 25px;
   }
@@ -365,7 +365,7 @@ a {
     vertical-align: top;
     margin-top: 40px;
   }
-  
+
   .main__circle__img {
     margin: 88px 0 0;
     display: block;
@@ -395,24 +395,24 @@ a {
     font-weight: 700;
     color: #74cfae;
     text-align: center;
-    width: 300px;
+    width: 100%;
     padding: 160px 0 130px;
     margin: auto;
   }
 
   .main__sect__right {
-    width: 315px;
+    width: 100%;
     margin: 0 auto;
   }
   
   .main__art__right {
     margin: 80px auto 0;
     text-align: center;
-    width: 285px;
+    width: 100%;
   }
 
   .nav {
-    padding: 50px 15px;
+    padding: 50px 0;
   }
   
   .nav__icon {
@@ -420,7 +420,7 @@ a {
   }
 
   .sns {
-    display: inline-block;
+    display: block;
     color: #74cfae;
     width: 100%;
     padding: 30px 0;
