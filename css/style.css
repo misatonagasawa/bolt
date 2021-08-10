@@ -240,16 +240,14 @@ main {
   padding: 200px 0;
 }
 
+
 .main__nav {
   text-align: center;
+  display: flex;
 }
 
 a {
   text-decoration: none;
-}
-
-.nav__icon {
-  display: inline-block;
 }
 
 .sns {
